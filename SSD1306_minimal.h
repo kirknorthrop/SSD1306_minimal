@@ -139,6 +139,8 @@ class SSD1306_Mini {
       
     //  
     void displayX(int off);
+
+    void setPixel(int x, int y, bool set);
   
 //  private:
     void sendCommand(unsigned char command);
@@ -150,4 +152,3 @@ class SSD1306_Mini {
 
 
 #endif
-

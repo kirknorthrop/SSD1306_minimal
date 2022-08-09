@@ -1,7 +1,0 @@
-This is a modification of the GOFi2cOLED which is based on the Adafruit SSD1306 library.
-
-I have added in a reference to the codepage that the font uses (Code Page 437 minus one glyph), to make it easier to decide which rows of the font are necessary to keep, as this uses up a lot of RAM, especially on an Adafruit Trinket.
-
-There's a lot of other commented out code which was in the version I found. I have not yet worked out why this is the case.
-
-I've also altered it to work with the standard TinyWireM, hopefully.
